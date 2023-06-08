@@ -1,0 +1,39 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: century;
+}
+header{
+    background-image: linear-gradient(rgb(0,0,0,0.5),rgb(0,0,0,0.5),rgb(0,0,0,0.5)), url(../imgaes/Website-Design-Background-Feb-09-2022-03-13-55-73-AM.png);
+    background-position: center;
+    background-size: cover;
+    height: 97vh;
+    
+}
+.main>ul{
+    list-style-type: none;
+    padding: 0%;
+    margin: 0%;
+    float:right;
+}
+.main>ul>li{
+    display: inline-block;
+    padding: 15px;
+    margin-top: 5px;
+}
+.main>ul>li{
+    color: white;
+    
+}
+.main>ul>li:hover{
+    color: black;
+    background-color: white;
+}
+
+.commonCssColors>p{
+    color: white;
+    margin: 20px;
+    padding: 20px;
+    font-size:90px;
+    text-align: center;
+}
